@@ -73,8 +73,8 @@ export default class Controls {
             // DESKTOP
             "(min-width: 969px)": () => {
                 this.room.scale.set(0.11,0.11,0.11);
-                this.rectLight.width = 0.5;
-                this.rectLight.height = 0.7;
+                this.rectLight.width = 1;
+                this.rectLight.height = 0.4;
                 // FIRST SECTION
                 this.firstMoveTimeline = new GSAP.timeline({
                     scrollTrigger: {
